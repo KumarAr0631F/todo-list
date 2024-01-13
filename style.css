@@ -1,0 +1,43 @@
+#main-heading{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-input{
+  width: 190px;
+  height: 45px;
+  border-radius: 5px;
+
+}  
+
+#todo-date{
+  width: 135px;
+  height: 47px;
+  border-radius: 5px;
+}
+
+#todo-button{
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  padding: 15px 5px;
+}
+
+.dl-button{
+  background-color: #c60000;
+  color: white;
+  padding: 15px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
